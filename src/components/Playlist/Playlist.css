@@ -1,0 +1,39 @@
+.playlist {
+  background-color: rgba(40, 40, 40, 0.6);
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 30px;
+}
+
+.playlist h2 {
+  color: var(--primary-color);
+  text-align: left;
+  margin: 10px 0;
+  font-size: 1.8em;
+}
+
+.playlist input {
+  width: 85%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: rgba(40, 40, 40, 0.6);
+  color: var(--text-color);
+  border: none;
+}
+
+.playlist button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.playlist button:hover {
+  background-color: var(--secondary-color);
+}

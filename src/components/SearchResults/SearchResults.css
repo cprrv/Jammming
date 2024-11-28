@@ -1,0 +1,13 @@
+.searchResults {
+  background-color: rgba(40, 40, 40, 0.6);
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.searchResults h2 {
+  color: var(--primary-color);
+  text-align: left;
+  margin: 10px 0;
+  font-size: 1.8em;
+}
